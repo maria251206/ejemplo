@@ -1,0 +1,94 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: #df00ae;
+    font-family: Arial, sans-serif; 
+}
+
+#colorfondo{
+    background-color: rgb(205, 100, 100);
+}
+
+#colorfondo:hover{
+    background-color: #f00;
+}
+
+#colorfondo2{
+    background-color: rgb(255, 147, 255);
+}
+
+#colorfondo2:hover{
+    background-color: #f00;
+}
+
+#colorfondo3 {
+    background-color: rgb(138, 125, 255);
+}
+
+#colorfondo3:hover{
+    background-color: #f00;
+}
+
+#colorfondo4 {
+    background-color: rgb(247, 253, 132);
+}
+
+#colorfondo5{
+    background-color: rgb(22, 247, 180);
+}
+#colorfondo5:hover{
+    background-color: #f00;
+}
+
+#colorfondo6{
+    background-color: rgb(132, 233, 253);
+}
+
+#colorfondo6:hover{
+    background-color: #f00;
+}
+
+#colorfondo7{
+    background-color: rgb(255, 139, 62);
+}
+
+#colorfondo7:hover{
+    background-color: #f00;
+}
+
+#colorfondo8{
+    background-color: rgb(176, 170, 218);
+}
+
+#colorfondo8:hover{
+    background-color: #f00;
+}
+
+#colorfondo9{
+    background-color: rgb(171, 252, 108);
+}
+
+#colorfondo9:hover{
+    background-color: #f00;
+}
+
+#colorf1 {
+    background-color: rgb(152, 237, 245);
+}
+
+#colorf2 {
+    background-color: rgb(196, 147, 255);
+}
+
+#colorf3 {
+    background-color: rgb(255, 147, 239);
+}
+
+#colorf4 {
+    background-color: rgb(255, 235, 147);
+}
+
+#formm{
+    width: 500px;
+}
+

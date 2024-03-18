@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+
+</head>
+<body >
+    <center><h1>TIENDA ONLINE</h1>
+    <h2>Formulario de registro</h2></center>
+    <form action="#" method="post" id="formm">
+        <fieldset id="colorf1">
+            <legend>¿QUIÉN ERES?</legend>
+            <p><label>Nombre: </p><input type="text" name="nombre" id="colorfondo" ></label>
+            <br>
+            <p><label>Apellidos: </p><input type="text" name="apellidos" id="colorfondo2"></label>
+            <br>
+            <p><label>Correo electrónico: </p><input type="text" name="correo" id="colorfondo3"</label><br>
+            <p><label>Fecha de nacimiento: </p><input type="date" name="fecha_nacimiento" id="colorfondo4"></label>
+        </fieldset>
+
+        <fieldset id="colorf2">
+            <legend>¿DE DÓNDE ERES?</legend>
+            <p><label>Ciudad: </p><input type="text" name="ciudad" id="colorfondo5"></label>
+            <p><label>Codigo postal: </p><input type="text" id="colorfondo6" name="cp"></label>
+            <legend>Pais</legend>
+            <select name="Pais">
+                <option value="españa">España</option>
+                <option value="eu">EU</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset id="colorf3">
+            <legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+            <p><label>Nombre de usuario: </p><input type="text" name="nombre" size="50" id="colorfondo7"></label>
+            <br>
+            <p><label>Contraseña: </p><input type="password" name="contraseña" id="colorfondo8" minlength="9" required></label><br>
+            <br>
+            <p><label>Vuelve a escribir la contraseña: </p><input type="password" id="colorfondo9" name="contraseña" minlength="9" required></label><br>
+        </fieldset>
+
+        <fieldset id="colorf4">
+            <legend>CONDICIONES DE REGISTRO</legend>
+            <p><label>Deseo recibir ofertas de TIENDA ONLINE</label></p>
+            <label><input type="radio" name="oferta1" value="dia"> Una vez al dia</label>
+            <label><input type="radio" name="oferta2" value="semana"> Una vez a la semana</label>
+            <label><input type="radio" name="oferta3" value="mes"> Una vez al mes</label>
+            <br>
+            <label><input type="checkbox" name="condicioness" value="acepto"> Acepto el acuerdo de servicios, la declaracion de privacidad y la declaracion de uso de cookies</label>
+        </fieldset>
+    </form>
+</body>
+</html>
